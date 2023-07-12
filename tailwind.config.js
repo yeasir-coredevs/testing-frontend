@@ -25,7 +25,6 @@ export default {
         "primary-hover": "",
         "secondary": "#F2C852",
         "secondary-hover": ""
-
       }
     },
   },

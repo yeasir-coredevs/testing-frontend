@@ -1,5 +1,5 @@
 
-const LandingPage = () => {
+const Home = () => {
     return (
         <>
             Hello from landing page
@@ -7,4 +7,4 @@ const LandingPage = () => {
     );
 };
 
-export default LandingPage;
+export default Home;
