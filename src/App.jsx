@@ -1,11 +1,15 @@
 import './App.css'
+import LandingPage from './components/landingPage/LandingPage'
 
 function App() {
 
   return (
     <>
-      <h1>Hello</h1>
+      <div className='max-w-screen-xl px-2 mx-auto'>
+        <LandingPage />
+      </div>
     </>
+
   )
 }
 
