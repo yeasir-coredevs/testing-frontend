@@ -2,8 +2,7 @@
  * Prepares data for a request.
  *
  * @param {object} api - An object containing request data.
- * @param {string} type - The type of data to prepare. Possible values are 'params', 'queries', and 'body'.
- *                        Default is 'params'.
+ * @param {string} type - The type of data to prepare. Possible values are 'params', 'queries', and 'body'. Default is 'params'.
  * @return {object} An object containing the prepared request data.
  *
  * @throws {Error} If a required parameter is missing.
