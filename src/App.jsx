@@ -6,8 +6,7 @@ function App() {
   return (
     <>
       <div className='max-w-screen-xl px-2 mx-auto'>
-        <h1 className='text-primary'>Hello</h1>
-        <LandingPage />
+        <a href="http://localhost:4000/api/login/google"></a>
       </div>
     </>
 
