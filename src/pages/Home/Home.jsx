@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import io from 'socket.io-client'
 import Test from "./Test";
 import ApiTest from "./ApiTest";
+import CacheTest from "./CacheTest";
 // const socket = io.connect('http://localhost:4000')
 
 const Home = () => {
@@ -57,7 +58,8 @@ const Home = () => {
     // }, [user, socket])
     return (
         <>
-            <ApiTest></ApiTest>
+            {/* <ApiTest></ApiTest> */}
+            <CacheTest />
         </>
     );
 };
