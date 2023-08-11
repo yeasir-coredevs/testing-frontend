@@ -1,4 +1,4 @@
-export const Blog = {
+export const blog = {
     registerBlog: {
         method: 'POST',
         uri: 'blog',

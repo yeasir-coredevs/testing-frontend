@@ -15,6 +15,7 @@ export default function prepareData(api, type = 'params') {
         });
     };
 
+
     switch (type) {
         case 'params': {
             const values = Object.values(api.params);
@@ -32,7 +33,7 @@ export default function prepareData(api, type = 'params') {
                 Object.keys(api.body).forEach(k => formBody.append(k, api.body[k]));
                 return api = { ...api, body: formBody }
             }
-            return api = { ...api, headers: { Accept: "application/json", "Content-Type": "application/json" } };
+            return api = { ...api, body: JSON.stringify(api.body), headers: { Accept: "application/json", "Content-Type": "application/json" } };
         }
     }
 };

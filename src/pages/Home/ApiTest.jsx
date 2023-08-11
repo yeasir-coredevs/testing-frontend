@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
-// import { plane } from '../../contexts/terminal/Terminal';
+import React, { useEffect, useState } from 'react';
+import { plane } from '../../contexts/terminal/Terminal';
 
 
 const ApiTest = () => {
     const [product, setProduct] = useState()
-    // plane.request({ name: 'singleProduct', params: { id: '64ca84cf1c1475adfdf18e4d' } }).then(data => setProduct(data))
+    // const temp = JSON.stringify({ mesage: 'hello' })
+    // console.log(temp);
+    // useEffect(() => {
+    //     plane.request({ name: 'sendMessage', params: { id: '0a8637dfbdc44744e72e7f9de3087bed' }, body: { message: 'hello' } }).then(data => setProduct(data))
+    // })
+
     return (
         <>
             {product && <pre>{product.name}</pre>}
