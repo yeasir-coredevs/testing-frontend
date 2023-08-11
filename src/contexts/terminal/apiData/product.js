@@ -5,12 +5,12 @@ export const product = {
         formData: true,
         body: {
             data: undefined,
-            image: undefined
+            images: undefined
         },
         suggestions: {
             raw: "A raw example of the payload: {data: { name: 'Testing Product',description: 'This is a sample product description.',origin: 'Sample Origin',quantity: '20',price: '10.00',tax: '10.00',fee: '5.00',category: '64c37d290d10a967880c78f8',subcategory: '64c37d280d10a967880c78f6',tags: 'sample, shoe, electronics',link: 'https://example.com/sample-product'},images:'images'}.",
             data: "Please provide the data in the body object",
-            image: "Please provide the image in the body object",
+            images: "Please provide the images in the body object",
         }
     },
     updateProduct: {
